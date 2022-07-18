@@ -298,9 +298,14 @@ Resources re= new Resources();
         System.out.println("total"+total);
         
         */
-
+        limpiarJTextField();
     }//GEN-LAST:event_jButton_ConfirmarVentaActionPerformed
-
+    public void limpiarJTextField(){
+        jTextField1.setText("");
+        jTextFieldCodigoCliente.setText("");
+        jTextFieldDireccion.setText("");
+        jTextFieldPrecioUnitario.setText("");
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonAgregarProductos;
